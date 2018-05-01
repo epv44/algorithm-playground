@@ -45,7 +45,9 @@ class Spellcheck {
     private func sanitize(word: String) -> String {
         let lower = word.lowercased()
         return lower.map { vowels.contains(String($0)) ? "a" : String($0) }.reduce("", { x, y in
-                x+y
+               return x+y
             })
     }
 }
+
+
