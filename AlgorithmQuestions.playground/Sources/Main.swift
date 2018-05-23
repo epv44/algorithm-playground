@@ -48,7 +48,7 @@ func moveZeros() {
 }
 
 func validPalindrome() {
-    ValidPalindrome().validate(str: "racecar")
+    print(ValidPalindrome().validate(str: "racecar"))
 }
 
 func rangeIntersect() {

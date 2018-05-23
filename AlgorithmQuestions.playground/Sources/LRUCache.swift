@@ -20,13 +20,13 @@
 
 import Foundation
 
-class LRUCache {
+public class LRUCache {
     var cache = [Int:Int]()
     let capacity: Int
     var currentCapacity = 0
     var recents = [Int]()
     
-    init(capacity: Int) {
+    public init(capacity: Int) {
         self.capacity = capacity
     }
     
